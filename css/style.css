@@ -1,0 +1,37 @@
+body {
+    font-family: 'Titillium Web', sans-serif !important;
+    background: #24353f;
+}
+
+h1 {
+
+    color: #17a2b8;
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+.row {
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+
+.row p {
+    text-align: center;
+}
+
+#incorrect {
+    color: white;
+}
+
+#success {
+    color: green;
+    font-weight: bold;
+    font-size: 22;
+}
+
+#signMail,
+#signPassword,
+#userName {
+    color: rgb(198, 185, 185);
+}

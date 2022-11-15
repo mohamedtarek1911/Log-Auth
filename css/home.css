@@ -1,0 +1,36 @@
+body {
+  font-family: "Titillium Web", sans-serif !important;
+  background: #24353f;
+}
+
+.row {
+  box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+
+.row p {
+  color: #17a2b8;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.nav-bg {
+  background-color: #24353f;
+  box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+
+.logout-btn {
+  color: white;
+  margin-left: 1000px;
+}
+
+.smart-margin {
+  margin-left: 90px;
+  color: white;
+}
+
+.btn-bg {
+  border: yellow !important;
+  color: white;
+  background-color: transparent;
+}

@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row m-auto w-75 p-5 mt-5">
+        <div>
+          <h1>Smart Login System</h1>
+          <input
+            id="signMail"
+            placeholder="Enter your email"
+            class="form-control my-3 bg-transparent"
+            type="text"
+          />
+          <input
+            id="signPassword"
+            placeholder="Enter your password"
+            class="form-control my-3 bg-transparent"
+            type="password"
+          />
+
+          <p id="incorrect"></p>
+          <button
+            onclick="loginFunction()"
+            class="btn btn-outline-info w-100 my-3"
+          >
+            Login
+          </button>
+          <p class="text-white">
+            "Don't have an account?"
+            <a class="text-white" href="signup.html">Sign Up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
